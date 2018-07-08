@@ -197,6 +197,13 @@
             <version>${ehcache.version}</version>
         </dependency>
 
+        <!--DataBase-->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
+        </dependency>
+
         <!--Web-->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
